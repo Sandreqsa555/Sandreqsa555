@@ -1,0 +1,14 @@
+h2{
+    border: 2px solid black;
+    background-color: rgba(199, 17, 17, 0.829);
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+}
+p{
+    border: 2px solid black;
+    background-color: rgba(199, 17, 17, 0.829);
+    width: 250px;
+    text-align: center;
+    font-size: medium;
+}

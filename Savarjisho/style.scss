@@ -1,0 +1,66 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+$bg-color:#293ceb;
+$font: Helvetica;
+$text-color: rgb(255, 255, 255);
+
+header{
+  display: flex;
+  justify-content:space-around;
+  background-color: $bg-color;
+  font-size: 20px;
+  padding: 15px;
+  max-width: 100%;
+  h3{
+    color: $text-color;
+  }
+  ul{
+    display: flex;
+    gap: 50px; 
+  }
+  li{
+    list-style: none;
+    cursor: pointer;
+    color: $text-color;
+  }
+  a{
+    all: unset;
+  }
+}
+div{
+  display: flex;
+  border: 0.5px solid red;
+ img{
+    width: 250px;
+    max-width: 100%;
+  border: 0.5px solid red;
+  }
+  .iphone{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    button{
+      background-color: #ec5e2a;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      cursor: pointer;
+      padding: 15px;
+      margin-top: 75px;
+    }
+  }
+}
+@mixin button{
+ cursor: pointer;
+}
+button {
+  @include button;
+    transition: 0.7s;
+    &:hover{
+        opacity: 0.7;
+        transition: 0.7s;
+    }
+}

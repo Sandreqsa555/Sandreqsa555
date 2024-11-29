@@ -1,0 +1,39 @@
+$bg-color:#f55110;
+$font: Helvetica;
+$text-color: rgb(26, 187, 61);
+
+
+header{
+    background-color: $bg-color;
+    display: flex;
+    justify-content: space-around;
+    h3{
+       color: $text-color;
+    }
+    ul{
+display: flex;
+gap: 50px;
+li{
+    list-style: none;
+    cursor: pointer;
+    a{
+        all: unset;
+    }
+}
+    }
+}
+@mixin button{
+    all: unset;
+    background-color: beige;
+    padding: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button{
+    @include button;
+    transition: 0.7s;
+    &:hover{
+        opacity: 0.4;
+        transition: 0.7s;
+    }
+}

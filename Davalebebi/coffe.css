@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.coffe{
+    align-items: center;
+    border: 3px solid blueviolet;
+    padding: 40px;
+    background-color: purple;
+  border-radius: 10px;
+  width: 80%;   
+  gap: 20px;
+
+}
+
+.coffe img{
+    width: 500px;
+    max-width: 100%;
+ 
+}
+
+@media only screen and (max-width: 768px) {
+   .coffe {
+    flex-direction: column;
+   }
+
+}
+.tea {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+}

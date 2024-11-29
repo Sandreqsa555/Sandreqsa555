@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid grey;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+header img{
+    max-width: 60px;
+}
+header nav{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.BTN{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 60px;
+  height: 60px;
+  background-color: rgba(9, 13, 255, 0.856);
+  width: 60px;
+  transition: 0.9s;
+  z-index: 99;
+  animation-name: click;
+}
+.abs{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 80px;
+    
+}
+.abs .mtavarifoto{
+    max-width: 420px;
+    margin-left: 30px;
+
+}
+.abs .tvali{
+    position: absolute;
+    width: 60px;
+    top: 45%;
+    left: 51%;
+}
+.bg{
+    height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100% 35%;
+  background-repeat: no-repeat;
+  background-image: url(https://positionscssegypt.netlify.app/imgs/DALL%C2%B7E%202024-10-27%2015.06.48%20-%20A%20mystical%20Egyptian%20scene%20with%20a%20grand%20table%20adorned%20with%20glowing%20emerald%20and%20sapphire%20gemstones.%20The%20table%20is%20carved%20from%20ancient%20stone%20with%20hierogly.webp);
+}
+.sticky{
+    height: 200vh;
+    background-color: black;
+    padding: 40px 40px 0 40px;;
+}
+h1{
+    text-align: center;
+  font-size: 40px;
+  color: rgb(215, 215, 215);
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+  top: 120px;
+}

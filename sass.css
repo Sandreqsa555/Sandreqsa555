@@ -1,0 +1,32 @@
+header {
+  background-color: #f55110;
+  display: flex;
+  justify-content: space-around;
+}
+header h3 {
+  color: rgb(26, 187, 61);
+}
+header ul {
+  display: flex;
+  gap: 50px;
+}
+header ul li {
+  list-style: none;
+  cursor: pointer;
+}
+header ul li a {
+  all: unset;
+}
+
+button {
+  all: unset;
+  background-color: beige;
+  padding: 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: 0.7s;
+}
+button:hover {
+  opacity: 0.4;
+  transition: 0.7s;
+}/*# sourceMappingURL=sass.css.map */
